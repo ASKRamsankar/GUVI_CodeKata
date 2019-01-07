@@ -1,6 +1,4 @@
-a=int(input())
-b=int(input())
-c=int(input())
+a,b,c=map(int,input().split(' '))
 if a>=b:
   if a>=c:
     print(a)
