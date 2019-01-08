@@ -4,5 +4,5 @@ if start%2==0:
 else:
     start+=2
 while start<end:
-    print(start)
+    print(start,end=' ')
     start+=2
