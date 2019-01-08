@@ -1,6 +1,7 @@
 start,end=map(int,input().split())
 l=[]
 def isprime(no):
+  j=0
   for j in range(2,no):
     if no%j==0:
       return False
