@@ -12,4 +12,4 @@ for i in range(start+1,end):
     l.append(i)
 for i in range(len(l)-1):
   print(l[i],end=' ')
-print(l[i+1])
+print(l[len(l)-1])
