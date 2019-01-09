@@ -1,5 +1,5 @@
 n,k=input().split()
-k=int(k)
+k=len(n)-int(k)
 m=100000000000000000000000000000000
 if k==0:
     print(n)
