@@ -1,10 +1,14 @@
 n,k=input().split()
 k=len(n)-int(k)
-m=100000000000000000000000000000000
+m=100000000
+from itertools  import combinations
 if k==len(n):
     print(n)
 else:
-    for i in range(len(n)-k):
-        if int(n[i:i+k])<m:
-            m=int(n[i:i+k])
-    print(m)    
+    l=list(combinations(n,int(k)))
+    for i in l:
+        no=int(''.join(i))
+        print(no)
+        if no<m:
+            m=no
+    print(m)
