@@ -1,7 +1,7 @@
 n,k=input().split()
 k=len(n)-int(k)
 m=100000000000000000000000000000000
-if k==0:
+if k==len(n):
     print(n)
 else:
     for i in range(len(n)-k):
