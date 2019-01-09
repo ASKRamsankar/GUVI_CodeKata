@@ -8,7 +8,6 @@ else:
     l=list(combinations(n,int(k)))
     for i in l:
         no=int(''.join(i))
-        print(no)
         if no<m:
             m=no
     print(m)
