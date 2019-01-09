@@ -8,4 +8,4 @@ for i in s:
 if flag==1:
   print('yes')
 else:
-  print('no')
+  print('No')
