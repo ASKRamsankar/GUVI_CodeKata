@@ -1,5 +1,5 @@
 n=int(input())
-j=1
+j=0
 while 2**j<=n:
   if 2**j==n:
     print('yes')
