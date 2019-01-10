@@ -9,6 +9,13 @@ while i<len(r):
       continue
   except:
     pass
+  try:
+    if r[i]=='I' and r[i+1]=='X':
+      v+=9
+      i+=2
+      continue
+  except:
+    pass
   if r[i]=='I':
     v+=1
   elif r[i]=='II':
