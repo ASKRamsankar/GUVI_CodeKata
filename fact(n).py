@@ -1,6 +1,5 @@
-
 n=int(input())
-fact=0
+fact=1
 if n==0:
   print('1')
 else:
