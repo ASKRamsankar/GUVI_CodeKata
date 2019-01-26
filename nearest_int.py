@@ -1,2 +1,2 @@
 #a;jsdlkff;l
-print(int(input())+1)
+print(int(eval(input()))+1)
