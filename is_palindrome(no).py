@@ -1,3 +1,4 @@
+#ghkjlk;l
 NO=input()
 if NO==NO[::-1]:
   print('yes')
