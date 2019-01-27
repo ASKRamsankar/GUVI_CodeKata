@@ -1,2 +1,2 @@
 #fj;lkd
-ord(input())
+print(ord(input()))
