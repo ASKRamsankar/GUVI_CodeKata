@@ -1,8 +1,40 @@
-l,r=map(int,input().split())
-if r%l==0:
-  print(r)
-else:
-  if r%10==0 and l%10==0:
-    print(int((r)*(l/10)))
+#kjdf;dk
+n1,n2=map(int,input().split())
+
+flag=0
+
+gcd=1
+
+def find(n,m):
+
+  global n1,n2,flag
+
+  i=0
+
+  for i in range(2,min(n,m)+1):
+
+    if n%i==0 and m%i==0:
+
+      n/=i
+
+      n1=int(n)
+
+      m/=i
+
+      n2=int(m)
+
+      return i
+
   else:
-    print(r*l)
+
+      flag=1
+
+      return (m*n)
+
+
+
+while flag!=1:
+
+  gcd*=(find(n1,n2))
+
+print(gcd)
