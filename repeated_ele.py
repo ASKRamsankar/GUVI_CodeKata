@@ -9,4 +9,7 @@ for i in nos:
   else:
     no.append(i)
 dup=sorted(dup)
-print(' '.join(dup))
+if dup==[]:
+  print('unique')
+else:
+  print(' '.join(dup))
