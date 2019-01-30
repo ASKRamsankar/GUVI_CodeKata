@@ -1,10 +1,11 @@
 n=int(input())
-nos=list(map(int,input().split()))
+nos=input().split()
 no=[]
 dup=[]
 for i in nos:
   if i in no:
-    dup.append(str(i))
+    if i not in dup:
+      dup.append(i)
   else:
     no.append(i)
 dup=sorted(dup)
