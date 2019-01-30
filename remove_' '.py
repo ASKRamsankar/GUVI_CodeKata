@@ -1,3 +1,4 @@
+#dfdk;
 string=input()
 c=0
 ind=len(string)
@@ -12,4 +13,4 @@ while i<len(string):
       c=0
   i+=1
   string=string[:ind]+string[ind+c:]
-print(string)
+print(string.strip())
