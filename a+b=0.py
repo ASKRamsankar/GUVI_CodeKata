@@ -6,6 +6,6 @@ for i in range(0,n-1):
   for j in range(i+1,n):
     if abs(nos[i]+nos[j])<m:
       v1,v2=nos[i],nos[j]
-      m=v1+v2
+      m=abs(v1+v2)
 print(v1,end=' ')
 print(v2)
