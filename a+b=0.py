@@ -7,4 +7,5 @@ for i in range(0,n-1):
     if abs(nos[i]+nos[j])<m:
       v1,v2=nos[i],nos[j]
       m=v1+v2
-print(v1,v2)
+print(v1,end=' ')
+print(v2)
