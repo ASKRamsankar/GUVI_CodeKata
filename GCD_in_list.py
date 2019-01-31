@@ -1,3 +1,4 @@
+#ghjk
 flag=0
 
 def find(n,m):
@@ -13,7 +14,6 @@ def find(n,m):
         return (i,N,M)
     else:
       flag=1
-      #return (m*n)
       return (1,N,M)
 
 def GCD(array,l,r):
@@ -21,22 +21,27 @@ def GCD(array,l,r):
   gcd=1
   n1=array[l-1]
   n2=array[l]
+  #print(n1,n2)
   if min(n1,n2)==1:
     gcd=1
   else:
     while flag!=1:
       t,n1,n2=find(n1,n2)
       gcd*=t
+    #print(gcd)
     flag=0
   for i in range(l+1,r):
     n1=gcd
     n2=array[i]
+    gcd=1
+    #print(n1,n2)
     if min(n1,n2)==1:
       gcd=1
     else:
       while flag!=1:
         t,n1,n2=find(n1,n2)
         gcd*=t
+      #print(gcd)
       flag=0
   return gcd    
     
