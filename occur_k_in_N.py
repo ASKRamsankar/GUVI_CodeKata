@@ -1,4 +1,4 @@
-n,string=input().split()
+string,n=input().split()
 c=0
 for i in string:
   if i==n:
