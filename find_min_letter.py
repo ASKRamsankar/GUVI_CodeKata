@@ -10,4 +10,4 @@ m=min(d.values())
 for i in d.keys():
   if d[i]==m and i!=' ':
     s.append(i)
-print(*s)
+print(' '.join(s))
