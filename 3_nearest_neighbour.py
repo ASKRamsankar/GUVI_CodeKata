@@ -3,7 +3,7 @@ nos=list(map(int,input().split()))
 nos.pop(nos.index(k))
 s=[]
 for i in range(3):
-  min1=max(nos)
+  min1=10000
   j=0
   while j<len(nos):
     if abs(nos[j]-k)<min1:
