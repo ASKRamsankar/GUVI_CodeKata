@@ -1,3 +1,4 @@
+#island
 n=int(input())
 M=[]
 c=0
