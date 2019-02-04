@@ -22,4 +22,4 @@ for i in range(l,r+1):
   if is_prime(c):
     print('prime')
     count+=1
-print(count)
+print(count-1)
