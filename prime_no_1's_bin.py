@@ -19,4 +19,4 @@ for i in range(l,r+1):
       c+=1
   if is_prime(c):
     count+=1
-print(count-1)
+print(count)
