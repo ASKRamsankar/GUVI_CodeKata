@@ -10,7 +10,7 @@ for i in range(len(M)):
     f=0
     if M[i][j]==1:
       try:
-        if M[i-1][j]==0:
+        if M[abs(i-1)][j]==0:
           f+=1
       except IndexError:
         f+=1
@@ -20,7 +20,7 @@ for i in range(len(M)):
       except IndexError:
         f+=1
       try:
-        if M[i][j-1]==0:
+        if M[i][abs(j-1)]==0:
           f+=1
       except IndexError:
         f+=1
@@ -30,17 +30,17 @@ for i in range(len(M)):
       except IndexError:
         f+=1
       try:
-        if M[i-1][j-1]==0:
+        if M[abs(i-1)][abs(j-1)]==0:
           f+=1
       except IndexError:
         f+=1
       try:
-        if M[i-1][j+1]==0:
+        if M[abs(i-1)][j+1]==0:
           f+=1
       except IndexError:
         f+=1
       try:
-        if M[i+1][j-1]==0:
+        if M[i+1][abs(j-1)]==0:
           f+=1
       except IndexError:
         f+=1
