@@ -1,0 +1,2 @@
+#BWBWBW
+print(input())
