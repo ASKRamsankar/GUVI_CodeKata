@@ -1,3 +1,4 @@
+#dfghj
 n=eval(input())
 nos=list(map(eval,input().split()))
 s=[]
