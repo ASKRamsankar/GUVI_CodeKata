@@ -1,4 +1,4 @@
-#fghjkl
+#45678
 n,m=map(eval,input().split())
 A=list(map(eval,input().split()))
 A.insert(0,0)
@@ -7,4 +7,7 @@ for i in range(m):
   p.append(list(map(eval,input().split())))
 
 for i in p:
-  print(min(A[i[0]:i[1]+1]))
+  out=0
+  for j in range(i[0],i[1]+1):
+    out^=A[j]
+  print(out)
