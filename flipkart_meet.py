@@ -12,4 +12,4 @@ while i<n-1:
       break
     j+=1
   i+=1
-print(c)
+print(str(c))
