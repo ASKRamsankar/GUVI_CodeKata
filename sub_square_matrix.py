@@ -25,6 +25,5 @@ for i in range(n):
   if c>col:
     col=c
 for i in range(col):
-  for j in range(col):
-    print(1,end=' ')
-  print()  
+  out=[1]*col
+  print(*out)  
