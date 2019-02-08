@@ -1,23 +1,30 @@
-string=input()
-flag=0
+s=input()
+i=0
 c=0
 m=0
-for i in string:
-  if i=='a' and flag==0:
-      c+=1
-      flag=1
-  elif i=='b' and flag==1:
-      c+=1
-      flag=0
+f=0
+while i<len(s):
+  if s[i]=='a' and f==0:
+    c+=1
+    f=1
+    i+=1
+  elif s[i]=='b' and f==1:
+    c+=1
+    f=0
+    i+=1
   else:
     if c>m:
       m=c
-    flag=0
+      c=0
+    if s[i]=='b':
+      i+=1
     c=0
+    f=0
+if c>m:
+  print(c)
 else:
-  if c>m:
-    m=c
-if m==1:
-  print(m-1)
-else:
-  print(m)
+  if m==1:
+    print(0)
+  else:
+    print(m)
+  
