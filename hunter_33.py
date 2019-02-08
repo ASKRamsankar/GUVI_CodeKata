@@ -16,7 +16,7 @@ while i<len(s):
     if c>m:
       m=c
       c=0
-    if s[i]=='b':
+    if s[i]!='a':
       i+=1
     c=0
     f=0
