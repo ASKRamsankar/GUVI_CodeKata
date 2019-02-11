@@ -1,3 +1,4 @@
+#dfghj
 n=int(input())
 nos=list(map(eval,input().split()))
 j=0
