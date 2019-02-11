@@ -4,7 +4,6 @@ for i in range(1,len(n)):
   j=0
   while j<len(n) and len(n[:j]+n[j+i:])==len(n)-i:
     no=n[:j]+n[j+i:]
-    print(no)
     no=int(no)
     if no>-1 and no%8==0:
       print('yes')
