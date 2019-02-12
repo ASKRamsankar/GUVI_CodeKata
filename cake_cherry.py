@@ -14,7 +14,6 @@ for i in range(n):
 ch=[]
 ch.append(generate('R',0))
 ch.append(generate('G',1))
-print(ch)
 total_cost=0
 for i in cherry:
   min=100000000
