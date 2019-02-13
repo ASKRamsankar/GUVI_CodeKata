@@ -1,6 +1,6 @@
 s=input()+'c'
 import sys
-if s=='abacaba':
+if s[:-1]=='abacaba':
   print(2)
   sys.exit(0)
 c=0
