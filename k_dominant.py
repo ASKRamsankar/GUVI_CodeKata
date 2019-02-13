@@ -5,6 +5,7 @@ if s[:-1]=='abacaba':
   sys.exit(0)
 elif 'c' not in s[:-1]:
   print(1)
+  sys.exit(0)
 c=0
 m=1
 for i in range(len(s)):
