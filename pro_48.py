@@ -8,10 +8,8 @@ t=int(input())
 ab=[]
 for i in range(t):
   ab.append(list(map(int,input().split())))
-print(ab)
 for i in ab:
   n=fact(i[0],i[1])
-  print(n)
   c=0
   while n>1:
     x=2
