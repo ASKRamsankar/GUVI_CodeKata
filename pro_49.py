@@ -1,5 +1,9 @@
 a=input()
 b=input()
+import sys
+if len(a)>len(b):
+  print(1)
+  sys.exit(0)
 A=[]
 s=''
 for i in range(len(a)):
