@@ -26,4 +26,4 @@ for i in range(0,n):
     else:
       break
   out.append(c)
-print(out)
+print(*out)
