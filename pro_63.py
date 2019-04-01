@@ -8,12 +8,8 @@ def is_unique(S,l,r):
   else:
     return False
 
-import sys
 s=input()
 length=1
-if s=='abcabcdddd':
-  print(3)
-  sys.exit(0)
 for i in range(len(s)):
   j=i+1
   while j<=len(s):
